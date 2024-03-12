@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/sreehariv-code/advice-generator-app-main)
-- Live Site URL: [Add live site URL here](https://sreehariv-code.github.io/advice-generator-app-main/)
+- Solution URL: Click [Here](https://github.com/sreehariv-code/advice-generator-app-main)
+- Live Site URL: Click [Here](https://sreehariv-code.github.io/advice-generator-app-main/)
 
 ## My process
 
