@@ -12,33 +12,56 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="./css/style.css" />
-    <script src="./js/script.js"></script>
+    <script src="./js/script.js" defer></script>
     <title>Frontend Mentor | Advice generator app</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    Advice #<!-- Advice ID goes here -->
-
-    "<!-- Advice text goes here -->"
-
-    <div class="attribution">
-      Challenge by
-      <a
-        href="https://www.frontendmentor.io?ref=challenge"
-        rel="noopener"
-        target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+    <main>
+      <section>
+        <div class="card">
+          <div class="content">
+            <h1>Advice #<span id="advice-id"></span></h1>
+            <p>"<span id="advice-block"> </span>"</p>
+          </div>
+          <div class="divider">
+            <img
+              class="desktop"
+              src="./images/pattern-divider-desktop.svg"
+              alt="divider"
+            />
+            <img
+              class="mobile"
+              src="./images/pattern-divider-mobile.svg"
+              alt="divider"
+            />
+          </div>
+          <div class="btn-section">
+            <button
+              id="randomButton"
+              type="button"
+              title="button"
+              name="random"
+              class="random-btn"
+            >
+              <img src="./images/icon-dice.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db/hub"
+          rel="noopener"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.frontendmentor.io/profile/sreehariv-code"
+          >Sreehari</a
+        >.
+      </div>
+    </footer>
   </body>
 </html>
