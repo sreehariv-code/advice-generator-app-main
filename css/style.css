@@ -159,12 +159,22 @@ footer {
 @media screen and (max-width: 700px) {
   .card {
     width: 90%;
-    min-height: 200px;
+    min-height: 100px;
+  }
+  .content p {
+    font-size: 28px;
+    max-width: 95%;
   }
   .desktop {
     display: none;
   }
   .mobile {
     display: block;
+  }
+  .btn-section {
+    min-height: 70px;
+  }
+  .random-btn {
+    transform: translateY(50%);
   }
 }
